@@ -5,8 +5,10 @@ const About = () => {
   return (
     <section
       id="about"
-      className="text-white mx-auto h-screen justify-center flex items-center text-center mt-[20rem] sm:mt-0 mb-5"
+      className="text-white mx-auto h-screen justify-center flex items-center text-center mt-[20rem] sm:mt-0 mb-5 relative"
     >
+      <div className="absolute -z-10 -top-50 sm:top-40 left-30 -translate-x-1/2 w-[200px] h-[200px] bg-pink-400/20 blur-3xl rounded-full"></div>
+
       <div className="flex mx-auto sm:flex-row flex-col gap-15 px-2 sm:px-10">
         <div className="bg-white/15 p-5 rounded-2xl flex flex-1 flex-col gap-4 relative">
           <Image

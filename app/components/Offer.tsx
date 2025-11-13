@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 
 const Offer = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center text-center w-full mt-[5rem] sm:-mt-[3rem]">
+    <section className="min-h-screen flex flex-col items-center text-center w-full relative mb-[10rem] sm:mb-0 mt-[5rem] sm:-mt-[3rem]">
       <div className="p-5 flex justify-center">
         <div className="bg-gradient-to-b from-[#700202] to-[#F8A5FF] p-[5rem] rounded-3xl relative w-fit">
           <Image
@@ -61,6 +61,7 @@ const Offer = () => {
           </div>
         </div>
       </div>
+      <div className="absolute -z-10 -bottom-40 sm:bottom-20 right-0 sm:right-30  w-[300px] h-[400px] bg-pink-400/30 blur-3xl rounded-full"></div>
     </section>
   );
 };
